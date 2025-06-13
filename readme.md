@@ -7,5 +7,5 @@ These projects are designed to improve your logic building, coding confidence, a
 
 ## 🧠 What's Inside?
 
-Each project is placed in a separate folder based on the programming language used.
+Each project is placed in a separate folder based on the language or prectice set.
 
