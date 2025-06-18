@@ -10,28 +10,28 @@ while True:
 
         if choice == 1:
             total = total + 149
-            print("Coffe in making process")
+            print("Coffe in making process............")
         elif choice == 2:
             total = total + 20    
-            print("Chai in making process")
+            print("Chai in making process............")
         elif choice == 3:
             total = total + 199
-            print("Pizza in making process")
+            print("Pizza in making process............")
         elif choice == 4:
             total = total + 99
-            print("Burger in making process")
+            print("Burger in making process............")
         elif choice == 5:
             total =  total + 89
-            print("Manchurian inmaking process")
+            print("Manchurian inmaking process............")
         elif choice == 6:
             total = total + 89
-            print("Noodles in making process")
+            print("Noodles in making process............")
         elif choice == 7:
             total = total + 149
-            print("Chicken Roll in  making process")
+            print("Chicken Roll in  making process............")
         elif choice == 8:
             total = total + 119
-            print("Egg Roll in making process")
+            print("Egg Roll in making process............")
         elif choice == 9:
             print(f'YOUR TOTAL AMOUNT IS Rs.{total} -/ ONLY')
             break
