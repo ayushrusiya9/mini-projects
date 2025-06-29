@@ -20,6 +20,7 @@ while True:
                     print("YOUR TODO LIST TASKS!")
                     for i, tasks in enumerate(tasks, start=1):
                         print(f'{i}.{tasks.strip()}')
+        
         except FileNotFoundError:
             print(" 'todo.txt' file does not exist")
 
