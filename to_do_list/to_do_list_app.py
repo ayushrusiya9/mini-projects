@@ -40,6 +40,7 @@ while True:
 
             if 1 <= task_num <= len(tasks):
                 # tasks = list(tasks)
+                
                 removed = tasks.pop(task_num - 1)
                 with open("todo.txt",'w') as file:
                     file.writelines(tasks)
