@@ -7,8 +7,6 @@ while True:
         with open('todo.txt', 'a') as file:
             file.write(task + '\n')
             print('Task added', task)
-       
-
     elif choice == 2:
         #view task
         try:
@@ -20,10 +18,8 @@ while True:
                     print("YOUR TODO LIST TASKS!")
                     for i, tasks in enumerate(tasks, start=1):
                         print(f'{i}.{tasks.strip()}')
-        
         except FileNotFoundError:
             print(" 'todo.txt' file does not exist")
-
     elif choice == 3:
         # delete task
         try:
@@ -35,9 +31,7 @@ while True:
                 print("YOUR TODO LIST TASKS!")
                 for i,task in enumerate(tasks, start=1):
                     print(f"{i}. {task.strip()}")
-            
             task_num = int(input("ENTER TASK NUMBER : "))
-
             if 1 <= task_num <= len(tasks):
                 # tasks = list(tasks)
                 
@@ -49,7 +43,6 @@ while True:
                 print("INVALID NUMBER!!!!!")
         except FileNotFoundError:
             print("FILE NOT FOUND!!!!!!!!!")
-
     elif choice == 4:
         # exit
         break
