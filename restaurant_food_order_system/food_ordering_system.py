@@ -1,7 +1,5 @@
 print("Welcome!")
-
 total = 0
-
 while True:
     print("Anything else!")
     choice = int(input("1. Coffe  Rs.149\n2. Chai Rs. 20\n3. Pizza Rs. 199\n4. Burger Rs. 99\n5. Manchurian Rs. 89\n6. Noodles Rs.89\n7. Chicken Roll Rs. 149 \n8. Egg Roll Rs. 119\n9. Bill/Exit\nENTER ITEM NUMBER: "))

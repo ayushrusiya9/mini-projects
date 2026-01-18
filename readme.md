@@ -10,3 +10,4 @@ These projects are designed to improve your logic building, coding confidence, a
 
 Each project is placed in a separate folder based on the language or prectice set.
 
+
